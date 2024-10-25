@@ -1,29 +1,25 @@
 import './App.css';
-import z1 from './img/gruszka.jpg';
-import z2 from './img/morela.jpg';
-import z3 from './img/papaja.jpg';
-import z4 from './img/marchew.jpg';
+import z1 from './img/obraz.png';
+import z2 from './img/obraz.png';
+import z3 from './img/obraz.png';
+import z4 from './img/obraz.png';
 import Warzywo from './Warzywo';
 
 const produkty = [
-  {nr: 1, nazwa: "gruszka", opis: "Klaps", ilosc: 20, cena: 2.56, zdjecie: z1},
-  {nr: 2, nazwa: "morela", opis: "Klaps", ilosc: 15, cena: 3.21, zdjecie: z2},
-  {nr: 3, nazwa: "arbuz", opis: "Klaps", ilosc: 11, cena: 12.06, zdjecie: z3},
-  {nr: 4, nazwa: "marchew", opis: "Klaps", ilosc: 5, cena: 9.15, zdjecie: z4}
+  {nr: 1, nazwa: "obraz numer 1", opis: "Mazaj 1",  cena: 1000000, zdjecie: z1},
+  {nr: 2, nazwa: "obraz numer 1", opis: "Mazaj 1",  cena: 1000000, zdjecie: z2},
+  {nr: 3, nazwa: "obraz numer 1", opis: "Mazaj 1",  cena: 1000000, zdjecie: z3},
+  {nr: 4, nazwa: "obraz numer 1", opis: "Mazaj 1",  cena: 1000000, zdjecie: z4},
+  {nr: 1, nazwa: "obraz numer 1", opis: "Mazaj 1",  cena: 1000000, zdjecie: z1},
+  {nr: 2, nazwa: "obraz numer 1", opis: "Mazaj 1",  cena: 1000000, zdjecie: z2},
+  {nr: 3, nazwa: "obraz numer 1", opis: "Mazaj 1",  cena: 1000000, zdjecie: z3},
+  {nr: 4, nazwa: "obraz numer 1", opis: "Mazaj 1",  cena: 1000000, zdjecie: z4}
 ]
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <h1>Internetowy sklep z eko-warzywami</h1>
-        <ol>
-          <li>warzywa</li>
-          <li>owoce</li>
-          <li><a href="">soki</a></li>
-        </ol>
-      </header>
-      <main>
+          <main>
         <div className="container">
             {produkty.map((p) => (<Warzywo warzywo={p}/>))}
         </div>

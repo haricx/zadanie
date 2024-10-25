@@ -12,10 +12,10 @@
 }
 .productBox .nazwa{
     height: 40px;
-    color: white;
-    display: grid;
-    place-content: center;
-    background-color: rgb(0, 92, 0);
+    color: black;
+    
+    
+    
 }
 .nazwa h2{
     margin: 0;

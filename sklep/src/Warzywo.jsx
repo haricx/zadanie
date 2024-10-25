@@ -11,8 +11,8 @@ function Warzywo(props){
             </div>
             <div className="description">
                 <p>opis: {props.warzywo.opis}</p>
-                <p>na stanie: {props.warzywo.ilosc}</p>
-                <h2>{props.warzywo.cena} zł</h2>
+                <p>obraz przedstawia mazaki abstakcyjne {props.warzywo.ilosc}</p>
+                <h2>cena {props.warzywo.cena} zł</h2>
             </div>
         </div>
     )
